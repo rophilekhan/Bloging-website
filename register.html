@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogging Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- navbar area started -->
+
+  <div class="navbar bg-primary ">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl text-white font-bold">Blogging Website</a>
+    </div>
+  </div>
+
+  <!-- navbar area ended -->
+
+  <!-- form field started -->
+  <form id="form">
+    <div class="flex justify-center items-center h-screen ">
+      <div class="bg-[#fff6f6] w-96 p-6 shadow-lg border-2 rounded-2xl size-10/12 ">
+        <label class="form-control w-full max-w-xs">
+          <!-- <div class="label">
+          </div>
+           <input id="firstName" placeholder="Enter Your First Name" class="input input-bordered w-full max-w-xs "  />
+          
+          <div class="label">
+          </div>
+          <input id="lastName" placeholder="Enter Your Last Name" class="input input-bordered w-full max-w-xs"  />
+        -->
+          <div class="label"> 
+          </div>
+          <input type="email" id="email" placeholder="Enter Your Email" class="input input-bordered w-full max-w-xs"  />
+
+          
+          <div class="label">
+          </div>
+          <input type="password" id="password" placeholder="Enter Your password" class="input input-bordered w-full max-w-xs"  />
+          
+          <!-- <input
+          type="file" id="photo"
+          class="mt-5 file-input file-input-bordered file-input-primary w-full max-w-xs"  /> -->
+        </label>
+        <div class="mt-5 flex justify-center">
+          <button type="submit" class=" btn btn-primary">Register</button>
+        </div>
+        <div class="mt-5 text-primary flex justify-center">
+          <a id="loginUser" href="login.html">ALREADY A USER? PLEASE LOGIN</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <input type="email" id="email" placeholder="Enter Your Email">
+    <input type="password" id="password" placeholder="Enter Your password">
+    <button type="submit">Register</button> -->
+
+
+  </form>
+  <!-- <a id="loginUser" href="login.html">ALREADY A USER? PLEASE LOGIN</a> -->
+  <!-- form field ended -->
+
+  <script type="module" src="register.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

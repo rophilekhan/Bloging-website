@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- navbar area started -->
+
+    <div class="navbar bg-base-100 bg-primary">
+        <div class="flex-1">
+            <a href="index.html" class="btn btn-ghost text-xl text-white font-bold">Blogging Website</a>
+        </div>
+        <div>
+            <a href="index.html">Home</a>
+
+        </div>
+        <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full">
+                    <img alt="Tailwind CSS Navbar component"
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                </div>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li>
+                    <a class="justify-between">Profile</a>
+                </li>
+                <li><button id="logOut"><a>Logout</a></button> </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- navbar area ended -->
+
+
+
+    <!-- Post add area started -->
+
+    <div class="mt-7 ">
+        <h1 class="text-2xl font-bold flex justify-center">DASHBOARD</h1>
+    </div>
+
+    <div>
+        <br>
+        <form id="form" class="mt-4 p-14 ml-20 mr-20 bg-slate-100 rounded-2xl">
+            <div>
+                <div class="flex items-center justify-center mb-4">
+                    <input type="text" placeholder="title" id="title"
+                        class="textarea textarea-bordered textarea-lg w-screen ">
+                </div>
+                <div>
+
+                    <div class="flex items-center justify-center mb-4">
+                        <input type="text" placeholder="What is in your mind?" id="description"
+                            class="textarea textarea-bordered textarea-lg w-screen h-32  ">
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-neutral">Publish Blog</button>
+                </div>
+        </form>
+    </div>
+    <!-- Post add area ended -->
+
+    <!-- my blog area started -->
+    <br>
+    <div class="mt-2 p-14 bg-slate-100 ">
+        <!-- <h1 class="text-2xl font-bold ">My Blogs</h1>
+    </div>
+    <div class="mt-4 p-14 ml-20 mr-20 bg-slate-100 rounded-2xl">
+         -->
+
+        <div class="container mt-5 ">
+            <div id="myBlog" class="bg-white">
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- my blog area ended -->
+
+
+        <script type="module" src="dashboard.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
+
+
+
